@@ -61,4 +61,4 @@ _bd () {
   done
   reply=($reply "/")
 }
-compctl -V directories -K _bd bd
+compctl -M 'm:{a-zA-Z}={A-Za-z}' -V directories -K _bd bd
